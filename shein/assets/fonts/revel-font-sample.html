@@ -1,0 +1,2629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="all" href="revel-font.css">
+    <title>IconFont Glyphs samples</title>
+    <style>
+        body {
+            color: black;
+            font-size: 60px;
+        }
+        .controls {
+            float: left;
+            width: 155px;
+            color: black;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        .controls label {
+            margin-right: 3px;
+            display: inline-block;
+            width: 60px;
+        }
+
+        .controls input[type="number"] {
+            width: 50px;
+        }
+        .controls input[type="range"] {
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        .font-item-box{
+            display: inline-block;
+            margin: 10px;
+            width: 130px;
+            text-align: center;
+        }
+        .font-item-box > div {
+            text-align: center;
+        }
+        .font-icon {
+            /*width: 1em;
+            height: 1em;*/
+            margin: auto;
+        }
+        .font-title {
+            font-size: 17px;
+            margin-top: 3px;
+        }
+        .font-content {
+            font-size: 13px;
+            height:1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <label for="red">Red</label><input type="number" id="red" min="0" max="255" value="0" name="red" onchange="setColor('red', this.value)">
+        <input type="range" min="0" max="255" step="1" value="0" name="red" onchange="setColor('red', this.value)">
+
+        <label for="green">Green</label><input type="number" id="green" min="0" max="255" value="0" name="green" onchange="setColor('green', this.value)">
+        <input type="range" min="0" max="255" step="1" value="0" name="green" onchange="setColor('green', this.value)">
+
+        <label for="blue">Blue</label><input type="number" id="blue" min="0" max="255" value="0"  name="blue" onchange="setColor('blue', this.value)">
+        <input type="range" min="0" max="255" step="1" value="0" name="blue" onchange="setColor('blue', this.value)">
+
+        <label for="size">Font-size</label> <input type="number" step="10" value="60" onchange="setSize(this.value)">
+    </div>
+
+    
+    
+        
+            
+                
+                <div id="adjustings" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-adjustings"></div>
+                    <div class="font-title">adjustings</div>
+                    <div class="font-content">
+                        (
+                            \EA84
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="adm-perms" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-adm-perms"></div>
+                    <div class="font-title">adm-perms</div>
+                    <div class="font-content">
+                        (
+                            \EA1E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="angle-down" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-angle-down"></div>
+                    <div class="font-title">angle-down</div>
+                    <div class="font-content">
+                        (
+                            \EA7C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="angle-left" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-angle-left"></div>
+                    <div class="font-title">angle-left</div>
+                    <div class="font-content">
+                        (
+                            \EA8A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="angle-right" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-angle-right"></div>
+                    <div class="font-title">angle-right</div>
+                    <div class="font-content">
+                        (
+                            \EA8B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="angle-up" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-angle-up"></div>
+                    <div class="font-title">angle-up</div>
+                    <div class="font-content">
+                        (
+                            \EA85
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="arrow-r" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-arrow-r"></div>
+                    <div class="font-title">arrow-r</div>
+                    <div class="font-content">
+                        (
+                            \EA51
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="arrows-couple" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-arrows-couple"></div>
+                    <div class="font-title">arrows-couple</div>
+                    <div class="font-content">
+                        (
+                            \EA74
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="articles" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-articles"></div>
+                    <div class="font-title">articles</div>
+                    <div class="font-content">
+                        (
+                            \EA4A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="at" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-at"></div>
+                    <div class="font-title">at</div>
+                    <div class="font-content">
+                        (
+                            \EA64
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="book" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-book"></div>
+                    <div class="font-title">book</div>
+                    <div class="font-content">
+                        (
+                            \EA02
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="box" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-box"></div>
+                    <div class="font-title">box</div>
+                    <div class="font-content">
+                        (
+                            \EA03
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="break" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-break"></div>
+                    <div class="font-title">break</div>
+                    <div class="font-content">
+                        (
+                            \EA04
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="btn-bg" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-btn-bg"></div>
+                    <div class="font-title">btn-bg</div>
+                    <div class="font-content">
+                        (
+                            \EA05
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="chain" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-chain"></div>
+                    <div class="font-title">chain</div>
+                    <div class="font-content">
+                        (
+                            \EA07
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="charge" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-charge"></div>
+                    <div class="font-title">charge</div>
+                    <div class="font-content">
+                        (
+                            \EA87
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="chart" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-chart"></div>
+                    <div class="font-title">chart</div>
+                    <div class="font-content">
+                        (
+                            \EA08
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="checkbox" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-checkbox"></div>
+                    <div class="font-title">checkbox</div>
+                    <div class="font-content">
+                        (
+                            \EA09
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="checked" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-checked"></div>
+                    <div class="font-title">checked</div>
+                    <div class="font-content">
+                        (
+                            \EA0A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="checked-filled" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-checked-filled"></div>
+                    <div class="font-title">checked-filled</div>
+                    <div class="font-content">
+                        (
+                            \EA83
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="checkmark" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-checkmark"></div>
+                    <div class="font-title">checkmark</div>
+                    <div class="font-content">
+                        (
+                            \EA55
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="cloud-upload" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-cloud-upload"></div>
+                    <div class="font-title">cloud-upload</div>
+                    <div class="font-content">
+                        (
+                            \EAA0
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="cog" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-cog"></div>
+                    <div class="font-title">cog</div>
+                    <div class="font-content">
+                        (
+                            \EA90
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="computer" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-computer"></div>
+                    <div class="font-title">computer</div>
+                    <div class="font-content">
+                        (
+                            \EA52
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="connection" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-connection"></div>
+                    <div class="font-title">connection</div>
+                    <div class="font-content">
+                        (
+                            \EA98
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="copy" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-copy"></div>
+                    <div class="font-title">copy</div>
+                    <div class="font-content">
+                        (
+                            \EA0B
+                        
+                            + \EA0C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+        
+        
+            
+                
+                <div id="copy-simple" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-copy-simple"></div>
+                    <div class="font-title">copy-simple</div>
+                    <div class="font-content">
+                        (
+                            \EA0D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="copy2" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-copy2"></div>
+                    <div class="font-title">copy2</div>
+                    <div class="font-content">
+                        (
+                            \EA9A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="coss-hollow" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-coss-hollow"></div>
+                    <div class="font-title">coss-hollow</div>
+                    <div class="font-content">
+                        (
+                            \EAA3
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="crm" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-crm"></div>
+                    <div class="font-title">crm</div>
+                    <div class="font-content">
+                        (
+                            \EA0E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="cross" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-cross"></div>
+                    <div class="font-title">cross</div>
+                    <div class="font-content">
+                        (
+                            \EA0F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="cross-thin" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-cross-thin"></div>
+                    <div class="font-title">cross-thin</div>
+                    <div class="font-content">
+                        (
+                            \EAA7
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="crossmark" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-crossmark"></div>
+                    <div class="font-title">crossmark</div>
+                    <div class="font-content">
+                        (
+                            \EA56
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="crossmark-light" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-crossmark-light"></div>
+                    <div class="font-title">crossmark-light</div>
+                    <div class="font-content">
+                        (
+                            \EA79
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="deny" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-deny"></div>
+                    <div class="font-title">deny</div>
+                    <div class="font-content">
+                        (
+                            \EA10
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="dots" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-dots"></div>
+                    <div class="font-title">dots</div>
+                    <div class="font-content">
+                        (
+                            \EA58
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="download" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-download"></div>
+                    <div class="font-title">download</div>
+                    <div class="font-content">
+                        (
+                            \EA11
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="draggable" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-draggable"></div>
+                    <div class="font-title">draggable</div>
+                    <div class="font-content">
+                        (
+                            \EA95
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="dragndrop" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-dragndrop"></div>
+                    <div class="font-title">dragndrop</div>
+                    <div class="font-content">
+                        (
+                            \EAA8
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="dropdown" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-dropdown"></div>
+                    <div class="font-title">dropdown</div>
+                    <div class="font-content">
+                        (
+                            \EA75
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="dropup" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-dropup"></div>
+                    <div class="font-title">dropup</div>
+                    <div class="font-content">
+                        (
+                            \EA76
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="duplicate" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-duplicate"></div>
+                    <div class="font-title">duplicate</div>
+                    <div class="font-content">
+                        (
+                            \EA66
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="ellipsis-h" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-ellipsis-h"></div>
+                    <div class="font-title">ellipsis-h</div>
+                    <div class="font-content">
+                        (
+                            \EA7D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="email" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-email"></div>
+                    <div class="font-title">email</div>
+                    <div class="font-content">
+                        (
+                            \EA54
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="email2" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-email2"></div>
+                    <div class="font-title">email2</div>
+                    <div class="font-content">
+                        (
+                            \EA88
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="empl-add" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-empl-add"></div>
+                    <div class="font-title">empl-add</div>
+                    <div class="font-content">
+                        (
+                            \EA14
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="empl-export" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-empl-export"></div>
+                    <div class="font-title">empl-export</div>
+                    <div class="font-content">
+                        (
+                            \EA01
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="empl-perms" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-empl-perms"></div>
+                    <div class="font-title">empl-perms</div>
+                    <div class="font-content">
+                        (
+                            \EA12
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="empl-roles" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-empl-roles"></div>
+                    <div class="font-title">empl-roles</div>
+                    <div class="font-content">
+                        (
+                            \EA13
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="employee-single" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-employee-single"></div>
+                    <div class="font-title">employee-single</div>
+                    <div class="font-content">
+                        (
+                            \EA4B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="employees" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-employees"></div>
+                    <div class="font-title">employees</div>
+                    <div class="font-content">
+                        (
+                            \EA15
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="employees-many" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-employees-many"></div>
+                    <div class="font-title">employees-many</div>
+                    <div class="font-content">
+                        (
+                            \EA16
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="employees-wz" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-employees-wz"></div>
+                    <div class="font-title">employees-wz</div>
+                    <div class="font-content">
+                        (
+                            \EA99
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="enterprise" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-enterprise"></div>
+                    <div class="font-title">enterprise</div>
+                    <div class="font-content">
+                        (
+                            \EA9F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="estab" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-estab"></div>
+                    <div class="font-title">estab</div>
+                    <div class="font-content">
+                        (
+                            \EA18
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="establishment" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-establishment"></div>
+                    <div class="font-title">establishment</div>
+                    <div class="font-content">
+                        (
+                            \EA19
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="exclamation-circle" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-exclamation-circle"></div>
+                    <div class="font-title">exclamation-circle</div>
+                    <div class="font-content">
+                        (
+                            \EAAB
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="export" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-export"></div>
+                    <div class="font-title">export</div>
+                    <div class="font-content">
+                        (
+                            \EA89
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="eye" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-eye"></div>
+                    <div class="font-title">eye</div>
+                    <div class="font-content">
+                        (
+                            \EA1A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="fa-spinner" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-fa-spinner"></div>
+                    <div class="font-title">fa-spinner</div>
+                    <div class="font-content">
+                        (
+                            \EAA1
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="faq" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-faq"></div>
+                    <div class="font-title">faq</div>
+                    <div class="font-content">
+                        (
+                            \EA4C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="file-pdf" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-file-pdf"></div>
+                    <div class="font-title">file-pdf</div>
+                    <div class="font-content">
+                        (
+                            \EA8F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="folder-c" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-folder-c"></div>
+                    <div class="font-title">folder-c</div>
+                    <div class="font-content">
+                        (
+                            \EA1B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="folder-o" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-folder-o"></div>
+                    <div class="font-title">folder-o</div>
+                    <div class="font-content">
+                        (
+                            \EA1D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="h-dots" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-h-dots"></div>
+                    <div class="font-title">h-dots</div>
+                    <div class="font-content">
+                        (
+                            \EA7F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="info" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-info"></div>
+                    <div class="font-title">info</div>
+                    <div class="font-content">
+                        (
+                            \EA1F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="internal" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-internal"></div>
+                    <div class="font-title">internal</div>
+                    <div class="font-content">
+                        (
+                            \EAA5
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-address" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-address"></div>
+                    <div class="font-title">inv-address</div>
+                    <div class="font-content">
+                        (
+                            \EA5D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-ingredients" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-ingredients"></div>
+                    <div class="font-title">inv-ingredients</div>
+                    <div class="font-content">
+                        (
+                            \EA5E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-physical-inventory" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-physical-inventory"></div>
+                    <div class="font-title">inv-physical-inventory</div>
+                    <div class="font-content">
+                        (
+                            \EA77
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-po" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-po"></div>
+                    <div class="font-title">inv-po</div>
+                    <div class="font-content">
+                        (
+                            \EA60
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-preprecipes" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-preprecipes"></div>
+                    <div class="font-title">inv-preprecipes</div>
+                    <div class="font-content">
+                        (
+                            \EA7B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-products" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-products"></div>
+                    <div class="font-title">inv-products</div>
+                    <div class="font-content">
+                        (
+                            \EA5C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-reorder" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-reorder"></div>
+                    <div class="font-title">inv-reorder</div>
+                    <div class="font-content">
+                        (
+                            \EA61
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-rma" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-rma"></div>
+                    <div class="font-title">inv-rma</div>
+                    <div class="font-content">
+                        (
+                            \EA62
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-transfer" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-transfer"></div>
+                    <div class="font-title">inv-transfer</div>
+                    <div class="font-content">
+                        (
+                            \EA06
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-vendors" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-vendors"></div>
+                    <div class="font-title">inv-vendors</div>
+                    <div class="font-content">
+                        (
+                            \EA63
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inv-wetstock" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inv-wetstock"></div>
+                    <div class="font-title">inv-wetstock</div>
+                    <div class="font-content">
+                        (
+                            \EA65
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="inventory" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-inventory"></div>
+                    <div class="font-title">inventory</div>
+                    <div class="font-content">
+                        (
+                            \EA20
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="invoice-sent" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-invoice-sent"></div>
+                    <div class="font-title">invoice-sent</div>
+                    <div class="font-content">
+                        (
+                            \EA86
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="key" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-key"></div>
+                    <div class="font-title">key</div>
+                    <div class="font-content">
+                        (
+                            \EAAA
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="label" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-label"></div>
+                    <div class="font-title">label</div>
+                    <div class="font-content">
+                        (
+                            \EA5A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="list-view" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-list-view"></div>
+                    <div class="font-title">list-view</div>
+                    <div class="font-content">
+                        (
+                            \EA6A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="lock" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-lock"></div>
+                    <div class="font-title">lock</div>
+                    <div class="font-content">
+                        (
+                            \EA22
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="lock-all" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-lock-all"></div>
+                    <div class="font-title">lock-all</div>
+                    <div class="font-content">
+                        (
+                            \EA21
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="lock-small" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-lock-small"></div>
+                    <div class="font-title">lock-small</div>
+                    <div class="font-content">
+                        (
+                            \EAA6
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="magnifier" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-magnifier"></div>
+                    <div class="font-title">magnifier</div>
+                    <div class="font-content">
+                        (
+                            \EA49
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="megaphone" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-megaphone"></div>
+                    <div class="font-title">megaphone</div>
+                    <div class="font-content">
+                        (
+                            \EA4D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="messaging-announce" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-messaging-announce"></div>
+                    <div class="font-title">messaging-announce</div>
+                    <div class="font-content">
+                        (
+                            \EA6F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="messaging-bell" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-messaging-bell"></div>
+                    <div class="font-title">messaging-bell</div>
+                    <div class="font-content">
+                        (
+                            \EA6C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="messaging-drafts" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-messaging-drafts"></div>
+                    <div class="font-title">messaging-drafts</div>
+                    <div class="font-content">
+                        (
+                            \EA70
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="messaging-insert" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-messaging-insert"></div>
+                    <div class="font-title">messaging-insert</div>
+                    <div class="font-content">
+                        (
+                            \EA72
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="messaging-mail" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-messaging-mail"></div>
+                    <div class="font-title">messaging-mail</div>
+                    <div class="font-content">
+                        (
+                            \EA6D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="messaging-preview" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-messaging-preview"></div>
+                    <div class="font-title">messaging-preview</div>
+                    <div class="font-content">
+                        (
+                            \EA71
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="messaging-system" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-messaging-system"></div>
+                    <div class="font-title">messaging-system</div>
+                    <div class="font-content">
+                        (
+                            \EA6E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="minus" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-minus"></div>
+                    <div class="font-title">minus</div>
+                    <div class="font-content">
+                        (
+                            \EA23
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="minus-hollow" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-minus-hollow"></div>
+                    <div class="font-title">minus-hollow</div>
+                    <div class="font-content">
+                        (
+                            \EA93
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="modifier" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-modifier"></div>
+                    <div class="font-title">modifier</div>
+                    <div class="font-content">
+                        (
+                            \EA24
+                        
+                            + \EA25
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+        
+        
+            
+                
+                <div id="modifier-simple" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-modifier-simple"></div>
+                    <div class="font-title">modifier-simple</div>
+                    <div class="font-content">
+                        (
+                            \EA26
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="modifiers" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-modifiers"></div>
+                    <div class="font-title">modifiers</div>
+                    <div class="font-content">
+                        (
+                            \EA67
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="move" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-move"></div>
+                    <div class="font-title">move</div>
+                    <div class="font-content">
+                        (
+                            \EA9B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="multi-list" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-multi-list"></div>
+                    <div class="font-title">multi-list</div>
+                    <div class="font-content">
+                        (
+                            \EA9E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="need-help" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-need-help"></div>
+                    <div class="font-title">need-help</div>
+                    <div class="font-content">
+                        (
+                            \EA9C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="ok" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-ok"></div>
+                    <div class="font-title">ok</div>
+                    <div class="font-content">
+                        (
+                            \EA27
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="old-style-need-help" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-old-style-need-help"></div>
+                    <div class="font-title">old-style-need-help</div>
+                    <div class="font-content">
+                        (
+                            \EA9D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="overview" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-overview"></div>
+                    <div class="font-title">overview</div>
+                    <div class="font-content">
+                        (
+                            \EA28
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="partial-select" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-partial-select"></div>
+                    <div class="font-title">partial-select</div>
+                    <div class="font-content">
+                        (
+                            \EA29
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="pdf" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-pdf"></div>
+                    <div class="font-title">pdf</div>
+                    <div class="font-content">
+                        (
+                            \EA2A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="pencil" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-pencil"></div>
+                    <div class="font-title">pencil</div>
+                    <div class="font-content">
+                        (
+                            \EA2B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="pencil2" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-pencil2"></div>
+                    <div class="font-title">pencil2</div>
+                    <div class="font-content">
+                        (
+                            \EA2C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="pencil3" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-pencil3"></div>
+                    <div class="font-title">pencil3</div>
+                    <div class="font-content">
+                        (
+                            \EAA9
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="percent" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-percent"></div>
+                    <div class="font-title">percent</div>
+                    <div class="font-content">
+                        (
+                            \EA2D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="phone" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-phone"></div>
+                    <div class="font-title">phone</div>
+                    <div class="font-content">
+                        (
+                            \EA53
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="picture" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-picture"></div>
+                    <div class="font-title">picture</div>
+                    <div class="font-content">
+                        (
+                            \EAA2
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="play" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-play"></div>
+                    <div class="font-title">play</div>
+                    <div class="font-content">
+                        (
+                            \EA4E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="plus" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-plus"></div>
+                    <div class="font-title">plus</div>
+                    <div class="font-content">
+                        (
+                            \EA2E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="plus-circle" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-plus-circle"></div>
+                    <div class="font-title">plus-circle</div>
+                    <div class="font-content">
+                        (
+                            \EA96
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="plus-hollow" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-plus-hollow"></div>
+                    <div class="font-title">plus-hollow</div>
+                    <div class="font-content">
+                        (
+                            \EA94
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="plus-round" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-plus-round"></div>
+                    <div class="font-title">plus-round</div>
+                    <div class="font-content">
+                        (
+                            \EA80
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="print" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-print"></div>
+                    <div class="font-title">print</div>
+                    <div class="font-content">
+                        (
+                            \EA7A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="products" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-products"></div>
+                    <div class="font-title">products</div>
+                    <div class="font-content">
+                        (
+                            \EA2F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="question-circle" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-question-circle"></div>
+                    <div class="font-title">question-circle</div>
+                    <div class="font-content">
+                        (
+                            \EA8E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="radio" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-radio"></div>
+                    <div class="font-title">radio</div>
+                    <div class="font-content">
+                        (
+                            \EA82
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="radio-checked" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-radio-checked"></div>
+                    <div class="font-title">radio-checked</div>
+                    <div class="font-content">
+                        (
+                            \EA81
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="receipts" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-receipts"></div>
+                    <div class="font-title">receipts</div>
+                    <div class="font-content">
+                        (
+                            \EA91
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="reload" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-reload"></div>
+                    <div class="font-title">reload</div>
+                    <div class="font-content">
+                        (
+                            \EA30
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="reports" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-reports"></div>
+                    <div class="font-title">reports</div>
+                    <div class="font-content">
+                        (
+                            \EA31
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="reservations" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-reservations"></div>
+                    <div class="font-title">reservations</div>
+                    <div class="font-content">
+                        (
+                            \EA32
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="revert" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-revert"></div>
+                    <div class="font-title">revert</div>
+                    <div class="font-content">
+                        (
+                            \EA33
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="rotate-l" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-rotate-l"></div>
+                    <div class="font-title">rotate-l</div>
+                    <div class="font-content">
+                        (
+                            \EA68
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="rotate-r" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-rotate-r"></div>
+                    <div class="font-title">rotate-r</div>
+                    <div class="font-content">
+                        (
+                            \EA69
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="save" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-save"></div>
+                    <div class="font-title">save</div>
+                    <div class="font-content">
+                        (
+                            \EA34
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="scales" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-scales"></div>
+                    <div class="font-title">scales</div>
+                    <div class="font-content">
+                        (
+                            \EA35
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-calendar" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-calendar"></div>
+                    <div class="font-title">schedule-calendar</div>
+                    <div class="font-content">
+                        (
+                            \EA36
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-dollar" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-dollar"></div>
+                    <div class="font-title">schedule-dollar</div>
+                    <div class="font-content">
+                        (
+                            \EA37
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-ok" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-ok"></div>
+                    <div class="font-title">schedule-ok</div>
+                    <div class="font-content">
+                        (
+                            \EA38
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-payroll" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-payroll"></div>
+                    <div class="font-title">schedule-payroll</div>
+                    <div class="font-content">
+                        (
+                            \EA5B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-settings" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-settings"></div>
+                    <div class="font-title">schedule-settings</div>
+                    <div class="font-content">
+                        (
+                            \EA39
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-shift" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-shift"></div>
+                    <div class="font-title">schedule-shift</div>
+                    <div class="font-content">
+                        (
+                            \EA57
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-time-rule" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-time-rule"></div>
+                    <div class="font-title">schedule-time-rule</div>
+                    <div class="font-content">
+                        (
+                            \EA59
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedule-worked" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedule-worked"></div>
+                    <div class="font-title">schedule-worked</div>
+                    <div class="font-content">
+                        (
+                            \EA5F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="schedules" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-schedules"></div>
+                    <div class="font-title">schedules</div>
+                    <div class="font-content">
+                        (
+                            \EA3A
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="settings" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-settings"></div>
+                    <div class="font-title">settings</div>
+                    <div class="font-content">
+                        (
+                            \EA3B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="shopping-cart" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-shopping-cart"></div>
+                    <div class="font-title">shopping-cart</div>
+                    <div class="font-content">
+                        (
+                            \EA97
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="sliders" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-sliders"></div>
+                    <div class="font-title">sliders</div>
+                    <div class="font-content">
+                        (
+                            \EA7E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="sort" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-sort"></div>
+                    <div class="font-title">sort</div>
+                    <div class="font-content">
+                        (
+                            \EA3C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="sort2" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-sort2"></div>
+                    <div class="font-title">sort2</div>
+                    <div class="font-content">
+                        (
+                            \EA17
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="sorting" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-sorting"></div>
+                    <div class="font-title">sorting</div>
+                    <div class="font-content">
+                        (
+                            \EA8C
+                        
+                            + \EA8D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+        
+        
+            
+                
+                <div id="star" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-star"></div>
+                    <div class="font-title">star</div>
+                    <div class="font-content">
+                        (
+                            \EA4F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="t-corner" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-t-corner"></div>
+                    <div class="font-title">t-corner</div>
+                    <div class="font-content">
+                        (
+                            \EA3D
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="t-item" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-t-item"></div>
+                    <div class="font-title">t-item</div>
+                    <div class="font-content">
+                        (
+                            \EA3E
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="t-line" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-t-line"></div>
+                    <div class="font-title">t-line</div>
+                    <div class="font-content">
+                        (
+                            \EA3F
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="tablet" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-tablet"></div>
+                    <div class="font-title">tablet</div>
+                    <div class="font-content">
+                        (
+                            \EA40
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="taxes" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-taxes"></div>
+                    <div class="font-title">taxes</div>
+                    <div class="font-content">
+                        (
+                            \EA92
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="to-down" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-to-down"></div>
+                    <div class="font-title">to-down</div>
+                    <div class="font-content">
+                        (
+                            \EA78
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="to-left" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-to-left"></div>
+                    <div class="font-title">to-left</div>
+                    <div class="font-content">
+                        (
+                            \EA1C
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="to-left2" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-to-left2"></div>
+                    <div class="font-title">to-left2</div>
+                    <div class="font-content">
+                        (
+                            \EA47
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="to-right" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-to-right"></div>
+                    <div class="font-title">to-right</div>
+                    <div class="font-content">
+                        (
+                            \EA41
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="to-right2" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-to-right2"></div>
+                    <div class="font-title">to-right2</div>
+                    <div class="font-content">
+                        (
+                            \EA48
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="tools" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-tools"></div>
+                    <div class="font-title">tools</div>
+                    <div class="font-content">
+                        (
+                            \EA50
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="trash" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-trash"></div>
+                    <div class="font-title">trash</div>
+                    <div class="font-content">
+                        (
+                            \EA42
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="trash-thin" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-trash-thin"></div>
+                    <div class="font-title">trash-thin</div>
+                    <div class="font-content">
+                        (
+                            \EAA4
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="unlock" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-unlock"></div>
+                    <div class="font-title">unlock</div>
+                    <div class="font-content">
+                        (
+                            \EA44
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="unlock-all" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-unlock-all"></div>
+                    <div class="font-title">unlock-all</div>
+                    <div class="font-content">
+                        (
+                            \EA43
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="v-dots" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-v-dots"></div>
+                    <div class="font-title">v-dots</div>
+                    <div class="font-content">
+                        (
+                            \EA73
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="video" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-video"></div>
+                    <div class="font-title">video</div>
+                    <div class="font-content">
+                        (
+                            \EA45
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="warning" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-warning"></div>
+                    <div class="font-title">warning</div>
+                    <div class="font-content">
+                        (
+                            \EA6B
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+        
+            
+                
+                <div id="watch" class="font-item-box">
+                    <div class="font-icon ico-f ico-f-watch"></div>
+                    <div class="font-title">watch</div>
+                    <div class="font-content">
+                        (
+                            \EA46
+                        
+                        )
+                    </div>
+                </div>
+            
+        
+</body>
+<script>
+    var body = document.querySelector('body'),
+        color = {
+            red:  0,
+            green: 0,
+            blue: 0
+        };
+    function setColor (col, value){
+        document.querySelectorAll('input[name="'+col+'"]').item(0).value = value;
+        document.querySelectorAll('input[name="'+col+'"]').item(1).value = value;
+
+        color[col] = value;
+        body.style.color = 'rgb('+color.red+', '+color.green+', '+color.blue+')';
+    }
+    function setSize (size) {
+         body.style.fontSize = size+'px';
+    }
+</script>
+</html>
