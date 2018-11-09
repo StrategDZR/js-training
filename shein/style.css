@@ -2,6 +2,7 @@ body, ul{
   margin: 0px;
   padding: 0px;
   color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .top{
@@ -39,12 +40,16 @@ body, ul{
 
  }
 
+ .sidebar li:hover, .sidebar li a:hover {
+  background-color: #074466;
+  color: #FFFFFF;
+ }
+
  .sidebar li a{
   text-decoration: none;
-  font-size: 20px;
   color: #818181;
-
  }
+
 
 .menu-icon{
   height: 20px;
@@ -53,6 +58,7 @@ body, ul{
 }
 .menu-icon-text{
   padding: 9px 10px 10px;
+  font-size: 18px;
 }
 
 .main{
