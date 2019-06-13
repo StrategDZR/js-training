@@ -1,67 +1,68 @@
-body, ul{
-  margin: 0px;
-  padding: 0px;
-  color: black;
-  font-family: 'Roboto', sans-serif;
+body, ul {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
-.top{
-  width: 100%;
-  height: 45px;
-  background-color: #00a4dd;
-  top: 0; /* Stay at the top */
+.top {
+    width: 100%;
+    height: 45px;
+    background-color: #00a4dd;
+    top: 0; /* Stay at the top */
 }
 
-.logo{
-  margin-left: 10px;
-  vertical-align: middle;
+.logo {
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
-.sidebar{
-  background-color: #ecf9fd;
-  height: 100%; 
-  width: 240px; 
-  position: fixed;
-  left: 0;
-  overflow-x: hidden; 
-  border-right: 1px;
-  border-right-color: black;
+.sidebar {
+    background-color: #ecf9fd;
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    left: 0;
+    overflow-x: hidden;
+    border-right: 2px;
+    border-right-color: black;
 }
 
 .sidebar li {
-  list-style: none;
-  height: 39px;
-  padding-left: 10px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
+    list-style: none;
+    height: 39px;
+    padding-left: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 
- }
-
- .sidebar li:hover, .sidebar li a:hover {
-  background-color: #074466;
-  color: #FFFFFF;
- }
-
- .sidebar li a{
-  text-decoration: none;
-  color: #818181;
- }
-
-
-.menu-icon{
-  height: 20px;
-  width: 20px;
-  padding: 10px 10px 10px;
-}
-.menu-icon-text{
-  padding: 9px 10px 10px;
-  font-size: 18px;
 }
 
-.main{
-  margin-left: 240px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+.sidebar li:hover, .sidebar li a:hover {
+    background-color: #074466;
+    color: #FFFFFF;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #818181;
+}
+
+
+.menu-icon {
+    height: 20px;
+    width: 20px;
+    padding: 10px 10px 10px;
+}
+
+.menu-icon-text {
+    padding: 9px 10px 10px;
+    font-size: 18px;
+}
+
+.main {
+    margin-left: 240px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
 }
